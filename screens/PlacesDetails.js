@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+// import { useNavigation } from "@react-navigation/native";
+
+
 import OutlineButton from "../components/UI/OutlineButton";
 import { Colors } from "../constants/colors";
 import { fetchPlaceDetails } from "../util/database";
 
-function PlacesDetails({ navigation, route}){
+function PlacesDetails({navigation, route}){
+  // const navigation = useNavigation()
   const [fetchedPlace, setFetchedPlace] = useState();
 
   function showOnMapHandler(){
