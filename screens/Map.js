@@ -6,16 +6,12 @@ import IconButton from "../components/UI/IconButton";
 function Map({ navigation, route }){
   // const { initialLat, initialLng } = route.params;
 
-  const initialLocation = route.params &&{
-    lat: initialLat,
-    lng: initialLng
-  }
-  //  const initialLocation = route.params && {
-  //   lat: route.params.initialLat,
-  //   lng: route.params.initialLng,
-  // };
+   const initialLocation = route.params && {
+    lat: route.params.initialLat,
+    lng: route.params.initialLng,
+  };
 
-  // const iniitialLocation = false
+  // const initialLocation = false
 
   const [selectedLocation, setSelectedLocation] = useState(initialLocation);
   

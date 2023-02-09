@@ -54,5 +54,5 @@ on your host machine download this repo and install packages with
 
  So far i belive that its not passing the data from PlacesDetails.js to Map.js correctly and have tried several differnt ways to fix this with no luck as of yet. 
 
- How ever if you comment out lines 9, 10, 11,12 and uncomment line 18 on Map.js the map loads and displays a map with no marker. 
+ How ever if you comment out lines 9, 10, 11,12 and uncomment line 14 on Map.js the map loads and displays a map with no marker. 
 
